@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E26971571E0975E300F6ED5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26971561E0975E300F6ED5C /* AppDelegate.swift */; };
+		E26971591E0975E300F6ED5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26971581E0975E300F6ED5C /* ViewController.swift */; };
+		E269715C1E0975E300F6ED5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E269715A1E0975E300F6ED5C /* Main.storyboard */; };
+		E269715E1E0975E300F6ED5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E269715D1E0975E300F6ED5C /* Assets.xcassets */; };
+		E26971611E0975E300F6ED5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E269715F1E0975E300F6ED5C /* LaunchScreen.storyboard */; };
+		E269716C1E0975E300F6ED5C /* Smart_CameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E269716B1E0975E300F6ED5C /* Smart_CameraTests.swift */; };
+		E26971771E0975E300F6ED5C /* Smart_CameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26971761E0975E300F6ED5C /* Smart_CameraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E26971681E0975E300F6ED5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E269714B1E0975E300F6ED5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26971521E0975E300F6ED5C;
+			remoteInfo = "Smart Camera";
+		};
+		E26971731E0975E300F6ED5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E269714B1E0975E300F6ED5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26971521E0975E300F6ED5C;
+			remoteInfo = "Smart Camera";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E26971531E0975E300F6ED5C /* Smart Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26971561E0975E300F6ED5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E26971581E0975E300F6ED5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E269715B1E0975E300F6ED5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E269715D1E0975E300F6ED5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E26971601E0975E300F6ED5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E26971621E0975E300F6ED5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26971671E0975E300F6ED5C /* Smart CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart CameraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E269716B1E0975E300F6ED5C /* Smart_CameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_CameraTests.swift; sourceTree = "<group>"; };
+		E269716D1E0975E300F6ED5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26971721E0975E300F6ED5C /* Smart CameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart CameraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26971761E0975E300F6ED5C /* Smart_CameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_CameraUITests.swift; sourceTree = "<group>"; };
+		E26971781E0975E300F6ED5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E26971501E0975E300F6ED5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26971641E0975E300F6ED5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E269716F1E0975E300F6ED5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E269714A1E0975E300F6ED5C = {
+			isa = PBXGroup;
+			children = (
+				E26971551E0975E300F6ED5C /* Smart Camera */,
+				E269716A1E0975E300F6ED5C /* Smart CameraTests */,
+				E26971751E0975E300F6ED5C /* Smart CameraUITests */,
+				E26971541E0975E300F6ED5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E26971541E0975E300F6ED5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E26971531E0975E300F6ED5C /* Smart Camera.app */,
+				E26971671E0975E300F6ED5C /* Smart CameraTests.xctest */,
+				E26971721E0975E300F6ED5C /* Smart CameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E26971551E0975E300F6ED5C /* Smart Camera */ = {
+			isa = PBXGroup;
+			children = (
+				E26971561E0975E300F6ED5C /* AppDelegate.swift */,
+				E26971581E0975E300F6ED5C /* ViewController.swift */,
+				E269715A1E0975E300F6ED5C /* Main.storyboard */,
+				E269715D1E0975E300F6ED5C /* Assets.xcassets */,
+				E269715F1E0975E300F6ED5C /* LaunchScreen.storyboard */,
+				E26971621E0975E300F6ED5C /* Info.plist */,
+			);
+			path = "Smart Camera";
+			sourceTree = "<group>";
+		};
+		E269716A1E0975E300F6ED5C /* Smart CameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				E269716B1E0975E300F6ED5C /* Smart_CameraTests.swift */,
+				E269716D1E0975E300F6ED5C /* Info.plist */,
+			);
+			path = "Smart CameraTests";
+			sourceTree = "<group>";
+		};
+		E26971751E0975E300F6ED5C /* Smart CameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E26971761E0975E300F6ED5C /* Smart_CameraUITests.swift */,
+				E26971781E0975E300F6ED5C /* Info.plist */,
+			);
+			path = "Smart CameraUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E26971521E0975E300F6ED5C /* Smart Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E269717B1E0975E300F6ED5C /* Build configuration list for PBXNativeTarget "Smart Camera" */;
+			buildPhases = (
+				E269714F1E0975E300F6ED5C /* Sources */,
+				E26971501E0975E300F6ED5C /* Frameworks */,
+				E26971511E0975E300F6ED5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Camera";
+			productName = "Smart Camera";
+			productReference = E26971531E0975E300F6ED5C /* Smart Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E26971661E0975E300F6ED5C /* Smart CameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E269717E1E0975E300F6ED5C /* Build configuration list for PBXNativeTarget "Smart CameraTests" */;
+			buildPhases = (
+				E26971631E0975E300F6ED5C /* Sources */,
+				E26971641E0975E300F6ED5C /* Frameworks */,
+				E26971651E0975E300F6ED5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26971691E0975E300F6ED5C /* PBXTargetDependency */,
+			);
+			name = "Smart CameraTests";
+			productName = "Smart CameraTests";
+			productReference = E26971671E0975E300F6ED5C /* Smart CameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E26971711E0975E300F6ED5C /* Smart CameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26971811E0975E300F6ED5C /* Build configuration list for PBXNativeTarget "Smart CameraUITests" */;
+			buildPhases = (
+				E269716E1E0975E300F6ED5C /* Sources */,
+				E269716F1E0975E300F6ED5C /* Frameworks */,
+				E26971701E0975E300F6ED5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26971741E0975E300F6ED5C /* PBXTargetDependency */,
+			);
+			name = "Smart CameraUITests";
+			productName = "Smart CameraUITests";
+			productReference = E26971721E0975E300F6ED5C /* Smart CameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E269714B1E0975E300F6ED5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jascha Minow";
+				TargetAttributes = {
+					E26971521E0975E300F6ED5C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					E26971661E0975E300F6ED5C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E26971521E0975E300F6ED5C;
+					};
+					E26971711E0975E300F6ED5C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E26971521E0975E300F6ED5C;
+					};
+				};
+			};
+			buildConfigurationList = E269714E1E0975E300F6ED5C /* Build configuration list for PBXProject "Smart Camera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E269714A1E0975E300F6ED5C;
+			productRefGroup = E26971541E0975E300F6ED5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E26971521E0975E300F6ED5C /* Smart Camera */,
+				E26971661E0975E300F6ED5C /* Smart CameraTests */,
+				E26971711E0975E300F6ED5C /* Smart CameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E26971511E0975E300F6ED5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26971611E0975E300F6ED5C /* LaunchScreen.storyboard in Resources */,
+				E269715E1E0975E300F6ED5C /* Assets.xcassets in Resources */,
+				E269715C1E0975E300F6ED5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26971651E0975E300F6ED5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26971701E0975E300F6ED5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E269714F1E0975E300F6ED5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26971591E0975E300F6ED5C /* ViewController.swift in Sources */,
+				E26971571E0975E300F6ED5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26971631E0975E300F6ED5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E269716C1E0975E300F6ED5C /* Smart_CameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E269716E1E0975E300F6ED5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26971771E0975E300F6ED5C /* Smart_CameraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E26971691E0975E300F6ED5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26971521E0975E300F6ED5C /* Smart Camera */;
+			targetProxy = E26971681E0975E300F6ED5C /* PBXContainerItemProxy */;
+		};
+		E26971741E0975E300F6ED5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26971521E0975E300F6ED5C /* Smart Camera */;
+			targetProxy = E26971731E0975E300F6ED5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E269715A1E0975E300F6ED5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E269715B1E0975E300F6ED5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E269715F1E0975E300F6ED5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26971601E0975E300F6ED5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E26971791E0975E300F6ED5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E269717A1E0975E300F6ED5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E269717C1E0975E300F6ED5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Smart Camera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JM.Smart-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E269717D1E0975E300F6ED5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Smart Camera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JM.Smart-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E269717F1E0975E300F6ED5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Smart CameraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JM.Smart-CameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Camera.app/Smart Camera";
+			};
+			name = Debug;
+		};
+		E26971801E0975E300F6ED5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Smart CameraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JM.Smart-CameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Camera.app/Smart Camera";
+			};
+			name = Release;
+		};
+		E26971821E0975E300F6ED5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Smart CameraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JM.Smart-CameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Smart Camera";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E26971831E0975E300F6ED5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Smart CameraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JM.Smart-CameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Smart Camera";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E269714E1E0975E300F6ED5C /* Build configuration list for PBXProject "Smart Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26971791E0975E300F6ED5C /* Debug */,
+				E269717A1E0975E300F6ED5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E269717B1E0975E300F6ED5C /* Build configuration list for PBXNativeTarget "Smart Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E269717C1E0975E300F6ED5C /* Debug */,
+				E269717D1E0975E300F6ED5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E269717E1E0975E300F6ED5C /* Build configuration list for PBXNativeTarget "Smart CameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E269717F1E0975E300F6ED5C /* Debug */,
+				E26971801E0975E300F6ED5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E26971811E0975E300F6ED5C /* Build configuration list for PBXNativeTarget "Smart CameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26971821E0975E300F6ED5C /* Debug */,
+				E26971831E0975E300F6ED5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E269714B1E0975E300F6ED5C /* Project object */;
+}
