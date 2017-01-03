@@ -38,16 +38,6 @@
                ReferencedContainer = "container:Smart Camera.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E26971711E0975E300F6ED5C"
-               BuildableName = "Smart CameraUITests.xctest"
-               BlueprintName = "Smart CameraUITests"
-               ReferencedContainer = "container:Smart Camera.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
